@@ -4,13 +4,12 @@ import { fetchFilteredCustomers } from '@/app/lib/data';
 
 export const metadata: Metadata ={
 title: 'Customers',
-
 }
 
-export default async function page({
-  searchParams,
-}:{
-  searchparams?:{
+
+
+export default async function page({searchParams}:{
+  searchParams?:{
     query?: string;
     page?: string;
   }
