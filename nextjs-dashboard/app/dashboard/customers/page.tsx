@@ -10,7 +10,7 @@ title: 'Customers',
 export default async function page({
   searchParams,
 }:{
-  searchparms?:{
+  searchparams?:{
     query?: string;
     page?: string;
   }
